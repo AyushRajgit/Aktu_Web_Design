@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column-reverse;  
+    width: 100vw;
+}
+.Faces {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Faces .faces img {
+    width: 150px;
+}
+.Container h1 {
+    color: #3d9376;
+}
+

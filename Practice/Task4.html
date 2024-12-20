@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4 Practice</title>
+</head>
+<body>
+    <h1 id = "id1">BlueJ (Java)</h1>
+    <h2 class="name">BlueJ (Java)</h2>
+    <h2>BlueJ (Java)</h2>
+    <script>
+        // Gets element by id (no issue, as id is distinct)
+        let Heading = document.getElementById("id1");
+        Heading.style.color = "blue";
+        Heading.style.textAlign = "center";
+        Heading.style.fontSize = "rem";
+
+        // Gets elements by class (class can be same so, it returns an array of all class with same class name)
+        let Heading2 = document.getElementsByClassName("name")[0];
+        Heading2.style.color = "red";
+        Heading2.style.textAlign = "center";
+        Heading2.style.fontSize = "rem";
+
+        // Gets elements by TagName (Tag can be same so, it returns an array of all the Tags as requested)
+        let Heading3 = document.getElementsByTagName("h2")[1];
+        Heading3.style.color = "green";
+        Heading3.style.textAlign = "center";
+        Heading3.style.fontSize = "rem";
+    </script>
+</body>
+</html>
